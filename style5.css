@@ -1,0 +1,90 @@
+<style>
+*{
+	margin: 0;
+	padding:0;
+	}
+body{
+	background: url(pinksky.jpg);
+	background-size: 100% 100%;
+
+}
+a {
+   color: white;
+   font-weight: 300;
+   letter-spacing: 2px;
+   text-decoration: none;
+   background: black;
+   padding: 20px 5px;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+
+
+.main {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 3em 1.5em;
+}
+
+.navigation ul {
+   border: 1px solid white;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.navigation li {
+   flex: 3;    
+}
+.box{
+	width: 450px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: black;
+	font-family: sans-serif;
+
+}
+.box-img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+.box h5{
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box p{
+	text-align: justify;
+
+}
+ul{
+	margin: 0;
+	padding:0;
+}
+.box li{
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+	background-color: white;
+}
+.box li a{
+	color: black;
+	text-decoration: none;
+	font-size: 60px;
+	transition: all ease-in-out 250ms;
+	background-color: white;
+}
+.box li a:hover{
+	color: #b9b9b9;
+}
